@@ -78,17 +78,19 @@ def _collect_modeled_keys(node_def):
     return keys
 
 
-def _copy_unmodeled_scalar_fields(node_def, source_data, output, rules):
-    # Dynamic mode: preserve scalar fields not declared in schema so newly added
-    # Excel mappings (e.g. custom address/email nodes) are not silently dropped.
-    if not rules.get("preserve_unmodeled_scalars", True):
-        return
+def _copy_unmodeled_fields(node_def, source_data, output, rules):
+    # Dynamic mode: preserve fields/nodes not declared in schema so newly added
+    # Excel mappings are not silently dropped.
     modeled_keys = _collect_modeled_keys(node_def)
     for key, value in source_data.items():
         if key in output or key in modeled_keys:
             continue
         if isinstance(value, (dict, list, tuple, set)):
-            continue
+            if not rules.get("preserve_unmodeled_nodes", True):
+                continue
+        else:
+            if not rules.get("preserve_unmodeled_scalars", True):
+                continue
         output[key] = value
 
 
@@ -146,7 +148,7 @@ def _generate_node(node_def, source_data, rules):
                 if cm_node:
                     out[cm_node_key] = cm_node
 
-    _copy_unmodeled_scalar_fields(node_def, source_data, out, rules)
+    _copy_unmodeled_fields(node_def, source_data, out, rules)
 
     return out
 
