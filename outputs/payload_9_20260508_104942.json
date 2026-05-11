@@ -1,0 +1,50 @@
+{
+  "ITR": {
+    "ITR6": {
+      "PartA_GEN1": {
+        "OrgFirmInfo": {
+          "PAN": "BBICP2345M",
+          "DateOFFormOrIncorp": "2001-09-15",
+          "StatusOrCompanyType": "7",
+          "DomesticCompFlg": "NO",
+          "Address": {
+            "ResidenceNo": "120",
+            "LocalityOrArea": "Cyber city",
+            "CityOrTownOrDistrict": "Gurgaon",
+            "StateCode": "10",
+            "CountryCode": "91:India",
+            "CountryCodeMobile": "'+91",
+            "MobileNo": 9873732789,
+            "EmailAddress": "rakesh.yadav@gmail.com",
+            "ResidenceName": "Tower 10"
+          },
+          "AssesseeName": {
+            "SurNameOrOrgName": "ABC Private Limited"
+          }
+        },
+        "FilingStatus": {
+          "ResidentialStatus": "NRI",
+          "FinancialStmtFlag": "NO",
+          "UnderLiquidation": "NO",
+          "FiiFpiFlag": "YES",
+          "AsseseeRepFlg": "YES",
+          "ResidentSec90": "YES"
+        }
+      },
+      "PartA_GEN2For6": {
+        "LiableSec44AAflg": "Y-YES",
+        "IncDclrdUs": "N-NO",
+        "LiableSec44ABflg": "N-NO",
+        "LiableSec92Eflg": "Y-YES",
+        "TotalSalesExcOneCr": "N"
+      },
+      "Verification": {
+        "Declaration": {
+          "AssesseeVerName": "Mr Pathak",
+          "FatherName": "Mr Pathak Senior",
+          "AssesseeVerPAN": "BBIPH4444P"
+        }
+      }
+    }
+  }
+}

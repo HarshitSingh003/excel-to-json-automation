@@ -1,0 +1,19 @@
+{
+  "Form_ITR6": {
+    "FormName": "ITR6",
+    "AssessmentYear": "2025-26"
+  },
+  "PartA_GEN1": {
+    "OrgFirmInfo": {
+      "PAN": "AABCA1111K",
+      "Address": {
+        "CityOrTownOrDistrict": "Pune",
+        "CountryCode": "IN"
+      }
+    }
+  },
+  "CreationInfo": {
+    "SWVersionNo": "1.0.0",
+    "SWCreatedBy": "MOBIFLY"
+  }
+}

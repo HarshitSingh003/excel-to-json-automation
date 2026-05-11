@@ -1,0 +1,18 @@
+{
+  "Form_ITR6": {
+    "FormName": "ITR6",
+    "AssessmentYear": "2022-23"
+  },
+  "PartA_GEN1": {
+    "OrgFirmInfo": {
+      "PAN": "BBICP2345M",
+      "Address": {
+        "CityOrTownOrDistrict": "Gurgaon",
+        "CountryCode": "91:India"
+      }
+    }
+  },
+  "CreationInfo": {
+    "SWCreatedBy": "JSON_ROUTE"
+  }
+}

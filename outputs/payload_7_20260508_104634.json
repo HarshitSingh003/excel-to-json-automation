@@ -1,0 +1,18 @@
+{
+  "Form_ITR6": {
+    "FormName": "ITR.ITR6.PARTA_GEN1.ORGFIRMINFO.ADDRESS.LOCALITYORAREA",
+    "AssessmentYear": "ITR.ITR6.PartA_GEN1.OrgFirmInfo.Address.CountryCodeMobile"
+  },
+  "PartA_GEN1": {
+    "OrgFirmInfo": {
+      "PAN": "BBICP2345M",
+      "Address": {
+        "CityOrTownOrDistrict": "Gurgaon",
+        "CountryCode": "91:India"
+      }
+    }
+  },
+  "CreationInfo": {
+    "SWCreatedBy": "JSON_ROUTE"
+  }
+}
